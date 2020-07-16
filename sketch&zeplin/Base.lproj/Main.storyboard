@@ -46,6 +46,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ZbT-vk-KNN" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NIZ-QN-hzy">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -77,7 +78,7 @@
             </objects>
             <point key="canvasLocation" x="2058" y="860"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings-->
         <scene sceneID="wdr-Bi-1JD">
             <objects>
                 <viewController id="6Xh-NM-uHA" sceneMemberID="viewController">
@@ -97,7 +98,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="WSf-1D-I4G"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Lb6-73-bGu"/>
+                    <navigationItem key="navigationItem" title="Settings" id="Lb6-73-bGu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GLa-WD-iCo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -341,7 +342,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="ehp-99-bjY">
-                        <barButtonItem key="backBarButtonItem" title="Settings" id="WBn-qh-aX9"/>
                         <barButtonItem key="rightBarButtonItem" title="Edit" id="3Ws-6M-cEn"/>
                     </navigationItem>
                 </tableViewController>
